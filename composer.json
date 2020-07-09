@@ -1,0 +1,17 @@
+{
+    "name"              : "zuko/rapidleech",
+    "description"       : "Z-Rapid Leech",
+    "keywords" : ["zuko", "rapid leech", "leech"],
+    "minimum-stability" : "stable",
+    "license"           : "proprietary",
+    "type"              : "project",
+    "authors"           : [
+        {
+            "name"  : "Zuko",
+            "email" : "tansautn@gmail.com"
+        }
+    ],
+    "require"           : {
+        "php" : "^7.3"
+    }
+}
