@@ -4,15 +4,19 @@
     "keywords" : ["zuko", "rapid leech", "leech"],
     "minimum-stability" : "stable",
     "license"           : "proprietary",
-    "type"              : "project",
-    "authors"           : [
+    "type"        : "project",
+    "authors"     : [
         {
             "name"  : "Zuko",
             "email" : "tansautn@gmail.com"
         }
     ],
-    "require"           : {
+    "require"     : {
         "php" : "^7.2",
         "php-curl-class/php-curl-class" : "^8.8.0"
+    }
+    ,
+    "require-dev" : {
+        "roave/security-advisories" : "dev-master"
     }
 }
